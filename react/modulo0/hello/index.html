@@ -1,8 +1,103 @@
 <!DOCTYPE html>
-<body>
-  <h1>Hello World!</h1>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meu Documento</title>
+    <meta name="description" content="Descrição da página" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 " />
+  </head>
+  <body>
+    <h1>Este é um título</h1>
 
-  <script>
-    console.log("olá, este é um script");
-  </script>
-</body>
+    <p>Este é um parágrafo</p>
+
+    <h2>Titulo 2</h2>
+    <h3>Temos outros tipos de tiulos até h6</h3>
+
+    <p>Podemos <em>Enfatizar</em> uma palávra</p>
+    <p>Podemos <strong>Destacar</strong> um item</p>
+
+    <p>Podemos usar imagens...</p>
+    <img src="img/download.png" alt="imagem teste" />
+
+    <p>
+      Clique <a href="pagina2.html" target="_blank">AQUI</a> para ir para página
+      2
+    </p>
+
+    <hr />
+
+    <p>Podemos ter elementos de listas:</p>
+    <p>lista não ordenada UL</p>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <p>Lista ordenada OL</p>
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+
+    <p>Lista de definições DL</p>
+    <dl>
+      <dt>HTML</dt>
+      <dd>Linguagem de marcação</dd>
+
+      <dt>CSS</dt>
+      <dd>Linguagem para definição de folhas de estilos</dd>
+    </dl>
+
+    <hr />
+
+    <p>Temos o elemento de TABELA:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Camiseta</td>
+          <td>R$ 199,00</td>
+        </tr>
+        <tr>
+          <td>Bermuda</td>
+          <td>R$ 250,00</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+    <p>Formulários:</p>
+    <form action="/" method="post">
+      <p>
+        <label for="itext">Campo de texto:</label>
+        <input name="itext" id="itext" type="text" />
+      </p>
+
+      <p>
+        Escolha sim ou não: <br />
+        <label><input name="iradio" type="radio" value="1" />SIM</label>
+        <label><input name="iradio" type="radio" value="0" />NÃO</label>
+      </p>
+    </form>
+
+    <input type="submit" value="Enviar Formulário" />
+
+    <p>além dessas opções ainda temos checkbox, select, etc...</p>
+
+    <hr />
+    <p>Temos elementos de container com e sem semantica</p>
+    <p>div, span, header, footer, nav, main, aside, article, section</p>
+
+    <script>
+      console.log("olá, este é um script");
+    </script>
+  </body>
+</html>
